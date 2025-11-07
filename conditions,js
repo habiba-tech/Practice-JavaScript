@@ -1,0 +1,13 @@
+//Conditions
+
+//WAP to Check if a Number is POSITIVE,NEGATIVE, ZERO 
+
+let r = -6;
+
+if(r > 0){
+  console.log(r,"Positive Number");
+}else if(r < 0){
+  console.log(r,"Negative Number");
+}else {
+  console.log(r,"Zero")
+};
