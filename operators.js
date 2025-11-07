@@ -18,3 +18,11 @@ let d = "3";
 
 console.log(c==d);
 console.log(c===d); // check datatype
+
+//Logical Operators 
+
+console.log("AND Operator",true && false);
+console.log("OR Operator",true || false);
+console.log("Not Operator",c!=d);
+
+
