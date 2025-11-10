@@ -52,3 +52,13 @@ let data = [10, 20, 30, 40, 50, 60];
 let newData = data.slice(1, data.length - 1);
 
 console.log(newData);
+
+//Reverse array WITHOUT reverse()
+let nums2 = [1, 2, 3, 4, 5];
+let reversed = [];
+
+for (let i = nums2.length - 1; i >= 0; i--) {
+  reversed.push(nums2[i]);
+}
+
+console.log(reversed);
