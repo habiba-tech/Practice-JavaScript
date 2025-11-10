@@ -16,3 +16,5 @@ student.city = "Delhi";
 //update the value 
 student.age = 19;
 
+//Delete value
+delete student.marks;
