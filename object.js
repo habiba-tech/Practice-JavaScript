@@ -11,5 +11,8 @@ student.name ;
 student["age”];
 
 //Adding new value
-  student.city = "Delhi";
+student.city = "Delhi";
+
+//update the value 
+student.age = 19;
 
