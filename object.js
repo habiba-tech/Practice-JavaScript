@@ -10,3 +10,6 @@ let student = {
 student.name ;
 student["age”];
 
+//Adding new value
+  student.city = "Delhi";
+
