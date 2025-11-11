@@ -77,3 +77,15 @@ console.log(car.brand);
 
 car.color = "Red";
 console.log(car);
+
+//Create an object for student and print all keys using a for-in loop
+let student = {
+  name:"Habiba",
+  age :18,
+  class: "SYCS",
+  marks: "92"
+};
+
+for (let key in student){
+  console.log(key);
+}
