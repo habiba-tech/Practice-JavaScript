@@ -114,3 +114,4 @@ let products = {
 
 console.log(products.product2.price);
 
+// Check if a key named "age" exists in an object.
