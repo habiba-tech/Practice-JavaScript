@@ -89,3 +89,14 @@ let student = {
 for (let key in student){
   console.log(key);
 }
+
+//Create a nested object for a person
+
+let person = {
+  name : "Ali",
+  address : {
+    city: "Mumbai",
+    pincode : "400001"
+  }
+};
+console.log(person.address.pincode);
