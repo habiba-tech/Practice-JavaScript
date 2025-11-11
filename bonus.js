@@ -128,3 +128,15 @@ if("age" in person2){
 }else{
   console.log("Age key does not exists")
 }
+
+//Convert object value into array using object.values()
+
+let student2 = {
+  name:"Rehan",
+  age:19,
+  marks:90
+};
+
+let valuesArray = Object.values(student2);
+
+console.log(valuesArray);
