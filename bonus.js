@@ -62,3 +62,18 @@ for (let i = nums2.length - 1; i >= 0; i--) {
 }
 
 console.log(reversed);
+
+
+//Objects
+
+//Create an objects 
+
+let car = {
+  brand:"honda",
+  model:"civic",
+  year: 2009,
+};
+console.log(car.brand);
+
+car.color = "Red";
+console.log(car);
