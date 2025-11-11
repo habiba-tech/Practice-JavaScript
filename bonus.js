@@ -166,6 +166,28 @@ for (let i = 1; i<student.length;i++ ){
 }
 console.log("Topper is:", topper.name);
 
+//Merge two objects WITHOUT using object.assign() or spread();
+
+let obj1 = {
+  name : "Habiba",
+  age : 18
+};
+
+let obj2 = {
+  city : "Mumbai",
+  marks:90
+}
+let merged = {};
+
+for (let key in obj1){
+  merged[key] = obj1[key];
+}
+
+for (let key in obj2){
+  merged[key] = obj2[key];
+}
+console.log(merged);
+
 
 
 
