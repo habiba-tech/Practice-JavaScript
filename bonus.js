@@ -138,7 +138,15 @@ let student2 = {
 };
 
 let valuesArray = Object.values(student2);
-
 console.log(valuesArray);
 
 //Convert object keys into an array using Object.keys().
+
+let student3 = {
+  name:"Rehan",
+  age:19,
+  marks:90
+};
+
+let keysArray = Object.keys(student3);
+console.log(keysArray);
