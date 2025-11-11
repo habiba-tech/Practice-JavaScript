@@ -115,3 +115,16 @@ let products = {
 console.log(products.product2.price);
 
 // Check if a key named "age" exists in an object.
+
+let person2 = {
+  name : "Muskan",
+  age:18,
+  city: "Mumbai",
+  pincode : "400001"
+};
+
+if("age" in person2){
+  console.log("Age key exists");
+}else{
+  console.log("Age key does not exists")
+}
