@@ -66,7 +66,7 @@ console.log(reversed);
 
 //Objects
 
-//Create an objects 
+//Create an object for a car with keys: brand, model, year. Print the brand. 
 
 let car = {
   brand:"honda",
