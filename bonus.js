@@ -150,3 +150,6 @@ let student3 = {
 
 let keysArray = Object.keys(student3);
 console.log(keysArray);
+
+//Create an array of objects (3 students) and print the name of the student with highest marks.
+
