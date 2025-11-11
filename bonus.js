@@ -100,3 +100,17 @@ let person = {
   }
 };
 console.log(person.address.pincode);
+
+//Create a object of 3 Products and print the price of the 2nd product
+
+let products = {
+  product1: {
+    name:"Laptop", price: 50000 },
+  product2: {
+    name:"Mouse", price: 500 },
+  product3: {
+    name:"Keyboard", price: 1200 },
+  };
+
+console.log(products.product2.price);
+
