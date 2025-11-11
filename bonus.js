@@ -152,4 +152,20 @@ let keysArray = Object.keys(student3);
 console.log(keysArray);
 
 //Create an array of objects (3 students) and print the name of the student with highest marks.
+let students = [
+  {name:"Habiba", marks:78},
+  {name:"Rehan", marks:78},
+  {name:"Muskan", marks:79},
+]
+let topper = students[0];
+
+for (let i = 1; i<student.length;i++ ){
+  if (students[i].marks > topper.marks){
+    topper = students[i];
+  }
+}
+console.log("Topper is:", topper.name);
+
+
+
 
