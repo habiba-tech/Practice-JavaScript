@@ -140,3 +140,5 @@ let student2 = {
 let valuesArray = Object.values(student2);
 
 console.log(valuesArray);
+
+//Convert object keys into an array using Object.keys().
