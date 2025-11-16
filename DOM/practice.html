@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Practice</title>
+    <style>
+        .dark {
+            background-color: black;
+            color: white;
+        }
+
+        #box {
+            width: 120px;
+            height: 120px;
+            background: lightgray;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>DOM Practice – All 7 Questions</h1>
+    <hr>
+
+    <!-- Q1 -->
+    <h2 id="title">Old Text</h2>
+    <button onclick="changeText()">Change Title Text</button>
+    <hr>
+
+    <!-- Q2 -->
+    <div id="box"></div>
+    <button onclick="changeColor()">Change Box Color</button>
+    <hr>
+
+    <!-- Q3 -->
+    <input id="userInput" type="text" placeholder="Type something">
+    <p id="output"></p>
+    <button onclick="showText()">Show Text</button>
+    <hr>
+
+    <!-- Q4 -->
+    <ul id="taskList">
+        <li>Task 1</li>
+    </ul>
+    <button onclick="addTask()">Add New Task</button>
+    <hr>
+
+    <!-- Q5 -->
+    <p id="info">This is a paragraph that will be removed.</p>
+    <button onclick="removePara()">Remove Paragraph</button>
+    <hr>
+
+    <!-- Q6 -->
+    <button onclick="toggleDark()">Toggle Dark Mode</button>
+    <hr>
+
+    <!-- Q7 -->
+    <h2 id="num">0</h2>
+    <button onclick="inc()">+</button>
+    <button onclick="dec()">-</button>
