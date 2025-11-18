@@ -1,6 +1,3 @@
-<button id="once">Click Once</button>
-
-<script>
 let btn = document.getElementById("once");
 
 function runOnce() {
@@ -9,4 +6,3 @@ function runOnce() {
 }
 
 btn.addEventListener("click", runOnce);
-</script>
