@@ -1,0 +1,25 @@
+body{
+    font-family: Arial;
+    transition: 0.3s ease;
+    padding: 40px;
+    background: white;
+    color: black;
+}
+
+.dark{
+    background-color: #121212;
+    color: white;
+}
+
+#toggleBtn{
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* Button style changes in dark mode */
+.dark #toggleBtn{
+    background: white;
+    color: black;
+}
