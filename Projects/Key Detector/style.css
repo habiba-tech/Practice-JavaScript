@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#box {
+    margin: auto;
+    width: 350px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
